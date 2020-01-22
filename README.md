@@ -8,8 +8,11 @@ I would like to answer a question that many iOS team keep searching for answer:
 
 ## Reference
 
-Here are some of the documents. If something isn't mentioned here, it's probably covered in one of these:
-- iOS
+Here are some of the documents that helps me to form this guide. If something isn't mentioned here, it's probably covered in one of these:
+
+- [Test-Driven iOS Development with Swift 4](https://www.amazon.com/Test-Driven-iOS-Development-Swift-maintainable/dp/1788475704)
+
+- Apple
   - [About Testing with Xcode](https://developer.apple.com/library/archive/documentation/DeveloperTools/Conceptual/testing_with_xcode/chapters/01-introduction.html)
   - [Using Unit Tests](https://developer.apple.com/library/archive/documentation/ToolsLanguages/Conceptual/Xcode_Overview/UnitTesting.html)
   - [Testing Your Xcode Project](https://developer.apple.com/documentation/xcode/testing_your_xcode_project)
