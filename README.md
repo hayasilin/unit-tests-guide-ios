@@ -2,8 +2,9 @@
 
 This is an iOS unit tests guide that I conclude from my experience. I list some sample code to demonstrate how to write unit test in iOS. Furthormore, I will give a real life iOS project to show how to achieve higher code coverage.
 
-I would like to answer a question that our team keep want to search for answer:
-**What is good code coverage to have for iOS app development?**
+I would like to answer a question that many iOS team keep searching for answer:
+
+**What is good code coverage to have for iOS app development and how to achieve it?**
 
 Here are some of the documents. If something isn't mentioned here, it's probably covered in one of these:
 - iOS
