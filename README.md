@@ -180,6 +180,8 @@ class NetworkService {
     }
 }
 ```
+- Although Above sample code can run and perform unit test, however, it uses ApiClient() to request data and depends the responsee result from server. If server side is under maintenance or under deployment, then the API request might be failed, so does the unit test. This approach also violate **Test Isoloation** principle. The better way is we should use **Test Double** to test the network request here, you can see more detail in the sample code below and [Basic test double with Swift Chapter](#basic-test-double-with-Swift)
+- Abbout network request test with server side, it would be categorize in integration tests instead of unit tests. You can see my another aritcle of [API Automation Tests Guide](https://github.com/hayasilin/api-automation-tests-guide)
 
 **Unit test code**
 
