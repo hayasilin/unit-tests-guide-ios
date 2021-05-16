@@ -180,7 +180,7 @@ class NetworkService {
 }
 ```
 - 上方的程式碼範例雖然可以執行測試，但有個問題假設ApiClient()是真的去執行API請求，那這個測試將會受限於請求的結果，假設Server端正好有問題或是正在部署，則可能請求會失敗，測試也會失敗，此方式同時也違反了**測試孤立化**的原則，因此更好的方式應該使用**測試替身**，詳見下方的程式碼以及[基礎測試替身與Swift章節](#基礎測試替身與Swift)
-- 有關與Server端的Network請求與回覆相關測試，在測試光譜上應屬於整合測試(Integration Tests)而非單元測試，可以詳見我另一個repo[API自動化測試規範](https://github.com/hayasilin/api-automation-tests-guide/blob/master/README_zh-hant.md)
+- 有關與Server端的Network請求與回覆相關測試，在測試光譜上應屬於整合測試(Integration Tests)而非單元測試，可以詳見我另一個文章[API自動化測試規範](https://github.com/hayasilin/api-automation-tests-guide/blob/master/README_zh-hant.md)
 
 **單元測試程式碼**
 
